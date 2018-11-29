@@ -1,0 +1,70 @@
+/* Centered layout */
+body {
+
+}
+
+main {
+	width: 80%;
+	margin: 0 auto;
+	background-color: #fff;
+	border: 1px solid;
+	box-shadow: 2px 6px;
+}
+
+header {
+	width: 100%;
+	text-align: center;
+}
+
+nav {
+	width: 100%;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+}
+
+nav > ul > li {
+	list-style: none;
+	display: inline;
+	padding: 0 20px;
+	border: 1px solid black;
+	background-color: #b7ff00;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: #000;
+}
+
+nav > ul > li:hover {
+	background-color: #fff;
+
+}
+
+section {
+	height: 60vh;
+
+}
+
+h1 {
+	font-size: 4em;
+	font-family: 'Oswald', sans-serif;
+	color: #b7ff00;
+}
+
+p {
+	font-size: 1.2em;
+	font-family: 'Adamina', serif;
+	text-align: center;
+}
+
+#logo {
+	display: block;
+    max-width:230px;
+    max-height:95px;
+    width: auto;
+    height: auto;
+}
